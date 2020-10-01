@@ -606,6 +606,11 @@
     <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
+    <!--Sweet Alert CDN-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+    <!--Email.js-->
     <script type="text/javascript">
         emailjs.init('user_MHkgRQO4CsmkYQJYDfiYR')
     </script>
@@ -626,12 +631,15 @@
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         btn.value = 'Submit';
-                        alert('Sent!');
+                        swal('Thank You', 'I will be in touch soon','success');
                     }, (err) => {
                         btn.value = 'Submit';
                         alert(JSON.stringify(err));
                     });
             });
     </script>
+
+
+
 </body>
 </html>
