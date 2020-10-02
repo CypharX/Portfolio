@@ -113,6 +113,17 @@
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\scrollspy.min.js" />
     <Content Include="Scripts\typed.js" />
+    <Content Include="TempImages\blog.jpg" />
+    <Content Include="TempImages\blog1.jpg" />
+    <Content Include="TempImages\blog2.jpg" />
+    <Content Include="TempImages\blog3.jpg" />
+    <Content Include="TempImages\cats.jpg" />
+    <Content Include="TempImages\fear.jpg" />
+    <Content Include="TempImages\Fizz.jpg" />
+    <Content Include="TempImages\money_1.jpg" />
+    <Content Include="TempImages\money_2.jpg" />
+    <Content Include="TempImages\sunset.jpg" />
+    <Content Include="TempImages\Tracker.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
