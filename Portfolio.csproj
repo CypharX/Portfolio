@@ -85,10 +85,12 @@
     <Content Include="Images\5.jpg" />
     <Content Include="Images\6.jpg" />
     <Content Include="Images\about.jpg" />
+    <Content Include="Images\address.png" />
     <Content Include="Images\android-chrome-192x192.png" />
     <Content Include="Images\blog-1.jpg" />
     <Content Include="Images\blog-2.jpg" />
     <Content Include="Images\blog-3.jpg" />
+    <Content Include="Images\email.png" />
     <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\favicon-32x32.png" />
     <Content Include="Images\favicon.ico" />
@@ -99,6 +101,7 @@
     <Content Include="Images\icons8-xamarin-50.png" />
     <Content Include="Images\logo-dark.png" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\phone.png" />
     <Content Include="Images\testi-1.jpg" />
     <Content Include="Images\testi-2.jpg" />
     <Content Include="Images\testi-3.jpg" />
@@ -120,6 +123,9 @@
     <Content Include="TempImages\cats.jpg" />
     <Content Include="TempImages\fear.jpg" />
     <Content Include="TempImages\Fizz.jpg" />
+    <Content Include="TempImages\Me1.jpg" />
+    <Content Include="TempImages\Me2.jpg" />
+    <Content Include="TempImages\Me3.jpg" />
     <Content Include="TempImages\money_1.jpg" />
     <Content Include="TempImages\money_2.jpg" />
     <Content Include="TempImages\sunset.jpg" />
