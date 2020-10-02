@@ -1,0 +1,39 @@
+﻿.modal-header, .modal-footer {
+    background-color: #27282c;
+    justify-content: center;
+}
+
+.modal-body {
+    background-color: #2e3136;
+    text-align: center;
+}
+
+.skillsColor {
+    color: #c55f7b;
+}
+
+.closeColor {
+    background-color: #c55f7b;
+}
+
+.cancelColor {
+    color: white;
+    background-color: white;
+}
+
+.homeBackground {
+    background-image: url('TempImages/city.jpg');
+    background-size: cover;
+}
+
+.skillHeight {
+    min-height: 23rem;
+}
+
+.blogHeight {
+    height: 15rem;
+}
+
+.challengHeight {
+    height: 10rem;
+}

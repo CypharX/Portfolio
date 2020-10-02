@@ -77,6 +77,7 @@
     <Content Include="Content\owl.theme.css" />
     <Content Include="Content\owl.transitions.css" />
     <Content Include="Content\style.css" />
+    <Content Include="customCSS.css" />
     <Content Include="Font\glyphicons-halflings-regular.svg" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
