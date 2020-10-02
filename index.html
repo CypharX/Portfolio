@@ -39,17 +39,37 @@
 
     <style>
         .modal-header, .modal-footer {
-            background-color: #27282c;
-            text-align: center;
+            background-color:#27282c;
+            justify-content:center;
         }
         .modal-body {
-            background-color: #2e3136;
+            background-color:#2e3136;
             text-align:center;
             
         }
         .skillsColor {
             color:#c55f7b;
         }
+        .closeColor {
+            background-color: #c55f7b;
+        }
+        .cancelColor{
+            color:white;
+            background-color:white;
+        }
+        .homeBackground {
+            background-image:url('TempImages/city.jpg');
+            background-size:cover;
+        }
+        .skillHeight{
+            min-height:23rem;
+        }
+        .blogHeight{
+            height:15rem;
+        }
+        .challengHeight{
+            height:10rem;
+        }        
     </style>
 
 </head>
@@ -104,7 +124,7 @@
     </nav>
     <!-- End Navbar -->
     <!-- START HOME -->
-    <section class="section header-bg-img h-100vh" id="home">
+    <section class="section homeBackground h-100vh" id="home">
         <div class="bg-overlay"></div>
         <div class="header-table">
             <div class="header-table-center">
@@ -113,8 +133,8 @@
                         <div class="col-lg-12">
                             <div class="text-center header-content mx-auto">
                                 <h4 class="text-white first-title mb-4">Welcome</h4>
-                                <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="element font-weight-bold" data-elements="Anthony Duval.,A FullStack Developer.,A Web Designer."></span></h1>
-                                <p class="text-white mx-auto header-desc mt-4">I'm Anthony Duval. I have none of the skills necessary right now but just wait 10 weeks!</p>
+                                <h1 class="header-name text-white text-capitalize mb-0">I'm <span class="element font-weight-bold" data-elements="Anthony Duval.,A FullStack Developer.,A Web Designer."></span></h1>
+                                <p class="text-white mx-auto header-desc mt-4 h5">Full-time web developer and designer. <br />Coding in the research triangle of North Carolina.</p>                            
                                 <div class="mt-4 pt-2">
                                     <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
                                 </div>
@@ -143,13 +163,13 @@
                 <div class="col-lg-6">
                     <div class="mt-3">
                         <h2><span class="font-weight-bold">About</span> Me</h2>
-                        <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M Anthony Duval.</span></h4>
-                        <p class="text-muted mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                        <p class="text-muted mt-2">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                        <p class="text-muted mt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'm Anthony Duval.</span></h4>
+                        <p class="text-muted mt-4">I'm an expert in using C#, CSS, and JavaScript to create amazing websites tailored to any of your needs.</p>
+                        <p class="text-muted mt-2">I've spent a decade in retail management where I developed skills in customer service, leadership, financial management, and creative problem solving.</p>
+                        <p class="text-muted mt-2">Now I've taken my skill set and dedication to start a career in web development.</p>
                         <div>
                             <ul class="mb-0 about-social list-inline mt-4">
-                                <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="devicon-github-plain"></i></a></li>                               
+                                <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="devicon-github-plain"></i></a></li>
                                 <li class="list-inline-item"><a href="https://twitter.com/AnthonyD_Codes" target="_blank"><i class="devicon-twitter-plain"></i></a></li>
                                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/anthony-d-2aa0771b8/" target="_blank"><i class="devicon-linkedin-plain"></i></a></li>
                             </ul>
@@ -167,13 +187,13 @@
                 <div class="col-lg-12">
                     <div class="text-center">
                         <h2>My <span class="font-weight-bold">Skills</span></h2>
-                        <p class="text-muted mx-auto section-subtitle mt-3">I use this tools on a daily basis to design and create beautiful webpages.</p>
+                        <p class="text-muted mx-auto section-subtitle mt-3">I use these tools on a daily basis to design and create beautiful webpages.</p>
                     </div>
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-4">
-                    <div class="text-center services-boxes rounded p-4 mt-4">
+                <div class="col-lg">
+                    <div class="text-center services-boxes rounded p-4 mt-4 skillHeight">
                         <div class="services-boxes-icon">
                             <i class="devicon-csharp-plain-wordmark skillsColor"></i>
                         </div>
@@ -184,8 +204,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="text-center services-boxes rounded p-4 mt-4">
+                <div class="col-lg">
+                    <div class="text-center services-boxes rounded p-4 mt-4 skillHeight">
                         <div class="services-boxes-icon">
                             <i class="devicon-git-plain skillsColor"></i>
                         </div>
@@ -196,8 +216,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="text-center services-boxes rounded p-4 mt-4">
+                <div class="col-lg">
+                    <div class="text-center services-boxes rounded p-4 mt-4 skillHeight">
                         <div class="services-boxes-icon">
                             <i class="devicon-bootstrap-plain skillsColor"></i>
                         </div>
@@ -210,8 +230,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="text-center services-boxes rounded p-4 mt-4">
+                <div class="col-lg">
+                    <div class="text-center services-boxes rounded p-4 mt-4 skillHeight">
                         <div class="services-boxes-icon">
                             <i class="devicon-html5-plain-wordmark skillsColor"></i>
                         </div>
@@ -222,8 +242,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="text-center services-boxes rounded p-4 mt-4">
+                <div class="col-lg">
+                    <div class="text-center services-boxes rounded p-4 mt-4 skillHeight">
                         <div class="services-boxes-icon skillsColor">
                             <i class="devicon-javascript-plain skillsColor"></i>
                         </div>
@@ -234,8 +254,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="text-center services-boxes rounded p-4 mt-4">
+                <div class="col-lg">
+                    <div class="text-center services-boxes rounded p-4 mt-4 skillHeight">
                         <div class="services-boxes-icon">
                             <i class="devicon-css3-plain-wordmark skillsColor"></i>
                         </div>
@@ -266,13 +286,13 @@
             <div class="col-lg mt-3">
                 <div class="rounded blog_color p-2">
                     <div class="img_blog">
-                        <img type="button" src="TempImages/Tracker.jpg" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#bugModal">
+                        <img type="button" src="TempImages/bug.jpg" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#bugModal">
                     </div>
                     <div class="content_blog pt-3 pb-3">
                         <div>
                             <h5 class="font-weight-bold mb-0 text-white">Bug Tracker</h5>
                         </div>
-                        <div class="mt-3">
+                        <div class="mt-3">                          
                             <p class="mt-3 desc_blog text-muted">This will be a brief description of my bug tracker.</p>
                             <p class="h6 mb-0 text-muted font-weight-bold btn" type="button" data-toggle="modal" data-target="#bugModal">Read More...</p>
                         </div>
@@ -343,50 +363,49 @@
             </div>
             <div class="row mt-4 pt-4">
                 <div class="col-lg">
-                    <div class="text-center testi_boxes mx-auto">                  
-                        
-                            <div>
-                                <img type="button" src="TempImages/Fizz.jpg" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#fizzModal">
-                            </div>
-                            <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Fizzbuzz</span></p>
-                            <p class="client_review mt-4 text-center text-muted">This will be a brief description of my fizzbuzz challenge</p>
-                       
+                    <div class="text-center testi_boxes mx-auto">
+                        <div>
+                            <img type="button" src="TempImages/fizz2.jpg" alt="" class="img-fluid rounded mx-auto d-block btn challengHeight" data-toggle="modal" data-target="#fizzModal">
+                        </div>
+                        <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Fizzbuzz</span></p>
+                        <p class="client_review mt-4 text-center text-muted">This will be a brief description of my fizzbuzz challenge</p>
+
                     </div>
                 </div>
                 <div class="col-lg">
                     <div class="text-center testi_boxes mx-auto">
-                        
-                        
-                            <div>
-                                <img type="button" src="TempImages/sunset.jpg" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#sunsetModal">
-                            </div>
-                            <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Sunset Hills</span></p>
-                            <p class="client_review mt-4 text-center text-muted">This will be a brief description of my sunset hills challenge</p>
-                        
+
+
+                        <div>
+                            <img type="button" src="TempImages/sunset.jpg" alt="" class="img-fluid rounded mx-auto d-block btn challengHeight" data-toggle="modal" data-target="#sunsetModal">
+                        </div>
+                        <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Sunset Hills</span></p>
+                        <p class="client_review mt-4 text-center text-muted">This will be a brief description of my sunset hills challenge</p>
+
                     </div>
                 </div>
                 <div class="col-lg">
                     <div class="text-center testi_boxes mx-auto">
-                        
-                        
-                            <div>
-                                <img type="button" src="TempImages/cats.jpg" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#tacoModal">
-                            </div>
-                            <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Tacocat</span></p>
-                            <p class="client_review mt-4 text-center text-muted">This will be a brief description of my tacocat challenge</p>
-                        
+
+
+                        <div>
+                            <img type="button" src="TempImages/cats.jpg" alt="" class="img-fluid rounded mx-auto d-block btn challengHeight" data-toggle="modal" data-target="#tacoModal">
+                        </div>
+                        <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Tacocat</span></p>
+                        <p class="client_review mt-4 text-center text-muted">This will be a brief description of my tacocat challenge</p>
+
                     </div>
                 </div>
                 <div class="col-lg">
                     <div class="text-center testi_boxes mx-auto">
-                        
-                        
-                            <div>
-                                <img type="button" src="TempImages/fear.jpg" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#sumModal">
-                            </div>
-                            <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Sum of all Fears</span></p>
-                            <p class="client_review mt-4 text-center text-muted">This will be a brief description of my sum of all fears challenge</p>
-                        
+
+
+                        <div>
+                            <img type="button" src="TempImages/fear.jpg" alt="" class="img-fluid rounded mx-auto d-block btn challengHeight" data-toggle="modal" data-target="#sumModal">
+                        </div>
+                        <p class="client_name text-center mb-0 mt-4"><span class="font-weight-bold">Sum of all Fears</span></p>
+                        <p class="client_review mt-4 text-center text-muted">This will be a brief description of my sum of all fears challenge</p>
+
                     </div>
                 </div>
             </div>
@@ -405,10 +424,10 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-4 mt-3">
+                <div class="col-lg mt-3">
                     <div class="rounded blog_color p-2">
                         <div class="img_blog">
-                            <img src="TempImages/blog1.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                            <img src="TempImages/blog1.jpg" alt="" class="img-fluid rounded mx-auto d-block blogHeight">
                         </div>
                         <div class="content_blog pt-3 pb-3">
                             <div>
@@ -422,10 +441,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-3">
+                <div class="col-lg mt-3">
                     <div class="rounded blog_color p-2">
                         <div class="img_blog">
-                            <img src="TempImages/blog2.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                            <img src="TempImages/blog4.jpg" alt="" class="img-fluid rounded mx-auto d-block blogHeight">
                         </div>
                         <div class="content_blog pt-3 pb-3">
                             <div>
@@ -439,10 +458,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-3">
+                <div class="col-lg mt-3">
                     <div class="rounded blog_color p-2">
                         <div class="img_blog">
-                            <img src="TempImages/blog3.jpg" alt="" class="img-fluid rounded mx-auto d-block">
+                            <img src="TempImages/blog3.jpg" alt="" class="img-fluid rounded mx-auto d-block blogHeight">
                         </div>
                         <div class="content_blog pt-3 pb-3">
                             <div>
@@ -560,193 +579,194 @@
                 <div class="col-md-12">
                     <div class="text-center text-white footer-alt">
                         <ul class="list-unstyled list-inline mb-3">
-                            <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="devicon-github-plain"></i></a></li>                            
+                            <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="devicon-github-plain"></i></a></li>
                             <li class="list-inline-item"><a href="https://twitter.com/AnthonyD_Codes" target="_blank"><i class="devicon-twitter-plain"></i></a></li>
                             <li class="list-inline-item"><a href="https://www.linkedin.com/in/anthony-d-2aa0771b8/" target="_blank"><i class="devicon-linkedin-plain"></i></a></li>
                         </ul>
-                        <p class="text-muted mb-0"> Modified by Anthony Duval.</p>                 
+                        <p class="text-muted mb-0"> Modified by Anthony Duval.</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!--END FOOTER-->
+    
     <!--Modals-->
     <div class="modal" id="bugModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Bug Tracker</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">Bug Tracker</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my bug tracker. And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
 
             </div>
         </div>
     </div>
     <div class="modal" id="mvcModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Financial Portal (MVC)</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">Financial Portal (MVC)</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my Financial Portal (MVC). And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
 
             </div>
         </div>
     </div>
     <div class="modal" id="apiModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Financial Portal (API)</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">Financial Portal (API)</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my Financial Portal (API). And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
 
             </div>
         </div>
     </div>
     <div class="modal" id="blogModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Blog</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">Blog</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my blog. And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="modal" id="fizzModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">FizzBuzz</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">FizzBuzz</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my fizzbuzz challenge. And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="modal" id="sunsetModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Sunset Hills</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">Sunset Hills</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my sunset hills challenge. And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="modal" id="tacoModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Tacocat</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">Tacocat</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my tacocat challenge. And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="modal" id="sumModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Sum of all Fears</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">Sum of all Fears</h2>
+                    <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <h5 class="modal-body">
                     Here I will give more detailed info about my sum of all fears challenge. And a link will be <a href="#">here</a>
-                </div>
+                </h5>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn closeColor" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -802,7 +822,7 @@
                         swal('Thank You', 'I will be in touch soon', 'success');
                     }, (err) => {
                         btn.value = 'Submit';
-                        alert(JSON.stringify(err));
+                            swal('Sorry', 'Your email did not send, please try again','error');
                     });
             });
     </script>
