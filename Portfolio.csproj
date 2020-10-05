@@ -125,9 +125,12 @@
     <Content Include="TempImages\blog4.jpg" />
     <Content Include="TempImages\bug.jpg" />
     <Content Include="TempImages\cats.jpg" />
+    <Content Include="TempImages\chart.jpg" />
     <Content Include="TempImages\city.jpg" />
+    <Content Include="TempImages\code.jpg" />
     <Content Include="TempImages\fear.jpg" />
     <Content Include="TempImages\fizz2.jpg" />
+    <Content Include="TempImages\git.jpg" />
     <Content Include="TempImages\landscape.jpg" />
     <Content Include="TempImages\landscape2.jpg" />
     <Content Include="TempImages\Me1.jpg" />
