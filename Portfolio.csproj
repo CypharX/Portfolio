@@ -98,6 +98,7 @@
     <Content Include="Images\header-bg.jpg" />
     <Content Include="Images\header-bg2.jpg" />
     <Content Include="Images\header-bg3.jpg" />
+    <Content Include="Images\Headshot.jpg" />
     <Content Include="Images\icons8-phone-64.png" />
     <Content Include="Images\icons8-slide-up-48.png" />
     <Content Include="Images\icons8-xamarin-50.png" />
