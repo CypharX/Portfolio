@@ -26,21 +26,23 @@
     <link rel="stylesheet" href="Content/animate.min.css">
 
     <!-- OWL SLIDER -->
-    <link rel="stylesheet" href="Content/owl.carousel.css" />
+    <!--<link rel="stylesheet" href="Content/owl.carousel.css" />
+    <link rel="stylesheet" href="Content/owl.transitions.css" />-->
+    <link href="Content/owl.carousel.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="Content/owl.theme.css" />
-    <link rel="stylesheet" href="Content/owl.transitions.css" />
-
+    <!--<link href="Content/owl.theme.default.min.css" rel="stylesheet" />-->
     <!-- Custom style Css -->
     <link href="Content/style.css" rel="stylesheet">
     <link href="Content/default.css" rel="stylesheet" id="option-color">
 
     <!--Icon Link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    
+
+
     <!--Cusstom CSS-->
     <link href="customCSS.css" rel="stylesheet" />
-    
-    <style>       
+
+    <style>
         .modal-projects {
             height: 95%;
         }
@@ -49,8 +51,8 @@
             height: auto;
             min-height: 95%;
         }
-        .carLoop{
-          
+
+        .carLoop {
         }
     </style>
 </head>
@@ -93,9 +95,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#challenges">Coding Challenges</a>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -115,7 +117,7 @@
                             <div class="text-center header-content mx-auto">
                                 <h4 class="text-white first-title mb-4">Welcome</h4>
                                 <h1 class="header-name text-white text-capitalize mb-0">I'm <span class="element font-weight-bold" data-elements="Anthony Duval.,A Full Stack Developer.,A Web Designer., A Freelancer."></span></h1>
-                                <p class="text-white mx-auto header-desc mt-4 h5">Full-time web developer and designer. <br />Coding from the research triangle of North Carolina.</p>                            
+                                <p class="text-white mx-auto header-desc mt-4 h5">Full-time web developer and designer. <br />Coding from the research triangle of North Carolina.</p>
                                 <div class="mt-4 pt-2">
                                     <a href="#" class="btn btn-outline-custom btn-round">Download Resume</a>
                                 </div>
@@ -150,9 +152,8 @@
                         <p class="text-muted mt-2">Now I've taken my skill set and dedication to start a career in web development.</p>
                         <div>
                             <ul class="mb-0 about-social list-inline mt-4">
-                                <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="devicon-github-plain"></i></a></li>
-                                <li class="list-inline-item"><a href="https://twitter.com/AnthonyD_Codes" target="_blank"><i class="devicon-twitter-plain"></i></a></li>
-                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/anthony-d-2aa0771b8/" target="_blank"><i class="devicon-linkedin-plain"></i></a></li>
+                                <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/anthony-d-2aa0771b8/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -267,14 +268,15 @@
             <div class="col-lg mt-3">
                 <div class="rounded blog_color p-2">
                     <div class="img_blog">
-                        <img type="button" src="TempImages/bug.jpg" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#bugModal">
+                        <img type="button" src="Images/BT_Icon.png" alt="" class="img-fluid rounded mx-auto d-block btn" data-toggle="modal" data-target="#bugModal" style="max-height:25rem">
                     </div>
                     <div class="content_blog pt-3 pb-3">
                         <div>
-                            <h5 class="font-weight-bold mb-0 text-white">Bug Tracker</h5>
+                            <h5 class="font-weight-bold mb-0 text-white">Community Watch</h5>
+                            <h6 class="font-weight-bold mb-0 text-white">Issue Tracking Tool</h6>
                         </div>
-                        <div class="mt-3">                          
-                            <p class="mt-3 desc_blog text-muted">This will be a brief description of my bug tracker.</p>
+                        <div class="mt-3">
+                            <p class="mt-3 desc_blog text-muted">A comprehensive web application for reporting and tracking problems of a given project.</p>
                             <p class="h6 mb-0 text-muted font-weight-bold btn" type="button" data-toggle="modal" data-target="#bugModal">Read More...</p>
                         </div>
                     </div>
@@ -391,7 +393,7 @@
     </section>
     <!--END CHALLENGES -->
     <!-- START BLOG -->
-    <section class="section bg-light" id="blog">
+    <!--<section class="section bg-light" id="blog">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -455,7 +457,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- END BLOG -->
     <!-- START CONTACT -->
     <section class="section" id="contact">
@@ -557,9 +559,9 @@
                 <div class="col-md-12">
                     <div class="text-center text-white footer-alt">
                         <ul class="list-unstyled list-inline mb-3">
-                            <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="devicon-github-plain"></i></a></li>
-                            <li class="list-inline-item"><a href="https://twitter.com/AnthonyD_Codes" target="_blank"><i class="devicon-twitter-plain"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/anthony-d-2aa0771b8/" target="_blank"><i class="devicon-linkedin-plain"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/CypharX" target="_blank"><i class="fab fa-github"></i></a></li>
+
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/anthony-d-2aa0771b8/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                         <p class="text-muted mb-0"> Modified by Anthony Duval.</p>
                     </div>
@@ -568,7 +570,6 @@
         </div>
     </footer>
     <!--END FOOTER-->
-    
     <!--Modals-->
     <div class="modal" id="bugModal">
         <div class="modal-dialog modal-xl modal-projects">
@@ -582,34 +583,39 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                  <div class="container">
-                      <div class="row">
-                          <div class="col-lg-8">
-                              <div id="owl-demo" class="owl-carousel">
-                                  <div class="text-center testi_boxes mx-auto">                                      
-                                      <div class="mt-2">
-                                        <img src="TempImages/chart.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block">
-                                      </div>
-                                  </div>
-                                  <div class="text-center testi_boxes mx-auto">                          
-                                      <div class="mt-2">
-                                        <img src="TempImages/code.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block">                                        
-                                      </div>
-                                  </div>
-                                  <div class="text-center testi_boxes mx-auto">                                      
-                                      <div class="mt-2">
-                                              <img src="TempImages/git.jpg" alt="" class="mx-auto img-thumbnail img-fluid d-block">                                      
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-lg">
-                              <div>
-                                <h5>Here I will give more detailed info about my Bug Tracker. And a link will be <a href="#">here</a></h5>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="owl-carousel">
+                                    <div class="item mt-2">
+                                        <img src="Images/CwNew1.png" class="img-fluid w-100" />
+                                    </div>
+                                    <div class="item mt-2">
+                                        <img src="Images/CwNew2.png" class="img-fluid w-100" />
+                                    </div>
+                                    <div class="item mt-2">
+                                        <img src="Images/CwNew3.png" class="img-fluid w-100" />
+                                    </div>
                                 </div>
-                          </div>
-                      </div>
-                  </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <h5>
+                                        A multi-functional issue tracker web application, implementing enhanced roles & security, which also used a Code First Relational database designed and modeled in SQL Server. Technologies used include:
+                                        .Net Framework v. 4.6.1, MVC5, C#, LINQ, SQL, Entity Framework, jQuery DataTables
+                                    </h5>
+                                    <br />
+                                    <h5>
+                                        Demo logins available for each role to test <a target="_blank" href="//aduval-communitywatch.herokuapp.com">here</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
                 <!-- Modal footer -->
@@ -630,10 +636,36 @@
                     <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
-                <!-- Modal body -->
-                <h5 class="modal-body">
-                    Here I will give more detailed info about my Financial Portal (MVC). And a link will be <a href="#">here</a>
-                </h5>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="owl-carousel">
+                                    <div class="item mt-2">
+                                        <img src="Images/coming-soon.jpg" class="img-fluid w-100" />
+                                    </div>
+                                    <!--<div class="item mt-2">
+                                        <img src="Images/CwNew2.png" class="img-fluid w-100" />
+                                    </div>
+                                    <div class="item mt-2">
+                                        <img src="Images/CwNew3.png" class="img-fluid w-100" />
+                                    </div>-->
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <h5>
+                                        
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
@@ -653,10 +685,36 @@
                     <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
-                <!-- Modal body -->
-                <h5 class="modal-body">
-                    Here I will give more detailed info about my Financial Portal (API). And a link will be <a href="#">here</a>
-                </h5>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="owl-carousel">
+                                    <div class="item mt-2">
+                                        <img src="Images/coming-soon.jpg" class="img-fluid w-100" />
+                                    </div>
+                                    <!--<div class="item mt-2">
+                                        <img src="Images/CwNew2.png" class="img-fluid w-100" />
+                                    </div>
+                                    <div class="item mt-2">
+                                        <img src="Images/CwNew3.png" class="img-fluid w-100" />
+                                    </div>-->
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <h5>
+
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
@@ -676,10 +734,36 @@
                     <button type="button" class="close cancelColor" data-dismiss="modal">&times;</button>
                 </div>
 
-                <!-- Modal body -->
-                <h5 class="modal-body">
-                    Here I will give more detailed info about my blog. And a link will be <a href="#">here</a>
-                </h5>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="owl-carousel">
+                                    <div class="item mt-2">
+                                        <img src="Images/coming-soon.jpg" class="img-fluid w-100" />
+                                    </div>
+                                    <!--<div class="item mt-2">
+                                        <img src="Images/CwNew2.png" class="img-fluid w-100" />
+                                    </div>
+                                    <div class="item mt-2">
+                                        <img src="Images/CwNew3.png" class="img-fluid w-100" />
+                                    </div>-->
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <h5>
+                                       
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
@@ -797,7 +881,8 @@
     <!-- TYPED -->
     <script src="Scripts/typed.js"></script>
     <!-- OWL CAROUSEL -->
-    <script src="Scripts/owl.carousel.min.js"></script>
+    <!--<script src="Scripts/owl.carousel.min.js"></script>-->
+    <script src="Scripts/owl.carousel.js"></script>
     <!-- CONTACT JS -->
     <script src="Scripts/contact.js"></script>
     <!--CUSTOM JS-->
@@ -808,6 +893,8 @@
 
     <!--Sweet Alert CDN-->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/68244592b2.js" crossorigin="anonymous"></script>
 
 
     <!--Email.js-->
@@ -834,9 +921,19 @@
                         swal('Thank You', 'I will be in touch soon', 'success');
                     }, (err) => {
                         btn.value = 'Submit';
-                            swal('Sorry', 'Your email did not send, please try again','error');
+                        swal('Sorry', 'Your email did not send, please try again', 'error');
                     });
             });
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            items: 1,
+            autoplay: true,
+            autoplayHoverPause: true,
+            autoplayTimeout: 3000
+        })
     </script>
 
 

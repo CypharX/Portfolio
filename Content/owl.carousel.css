@@ -10,7 +10,7 @@
 	clear: both;
 	visibility: hidden;
 	line-height: 0;
-	height: 0;
+	height: 100%;
 }
 /* display none until init */
 .owl-carousel{

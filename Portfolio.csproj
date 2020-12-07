@@ -74,7 +74,9 @@
     <Content Include="Content\materialdesignicons.min.css" />
     <Content Include="Content\mobiriseicons.css" />
     <Content Include="Content\owl.carousel.css" />
+    <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\owl.theme.css" />
+    <Content Include="Content\owl.theme.default.min.css" />
     <Content Include="Content\owl.transitions.css" />
     <Content Include="Content\style.css" />
     <Content Include="customCSS.css" />
@@ -91,6 +93,14 @@
     <Content Include="Images\blog-1.jpg" />
     <Content Include="Images\blog-2.jpg" />
     <Content Include="Images\blog-3.jpg" />
+    <Content Include="Images\BT_Icon.png" />
+    <Content Include="Images\Capture.png" />
+    <Content Include="Images\Capture2.png" />
+    <Content Include="Images\Capture3.png" />
+    <Content Include="Images\coming-soon.jpg" />
+    <Content Include="Images\CwNew1.png" />
+    <Content Include="Images\CwNew2.png" />
+    <Content Include="Images\CwNew3.png" />
     <Content Include="Images\email.png" />
     <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\favicon-32x32.png" />
@@ -116,6 +126,7 @@
     <Content Include="Scripts\jquery.easing.min.js" />
     <Content Include="Scripts\jquery.magnific-popup.min.js" />
     <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\scrollspy.min.js" />
     <Content Include="Scripts\typed.js" />
