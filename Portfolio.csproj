@@ -93,6 +93,10 @@
     <Content Include="Images\blog-1.jpg" />
     <Content Include="Images\blog-2.jpg" />
     <Content Include="Images\blog-3.jpg" />
+    <Content Include="Images\Blog1.png" />
+    <Content Include="Images\blog2.png" />
+    <Content Include="Images\Blog3.png" />
+    <Content Include="Images\Blog4.png" />
     <Content Include="Images\BT_Icon.png" />
     <Content Include="Images\Capture.png" />
     <Content Include="Images\Capture2.png" />
@@ -114,6 +118,10 @@
     <Content Include="Images\icons8-xamarin-50.png" />
     <Content Include="Images\logo-dark.png" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\MagGlass.jpeg" />
+    <Content Include="Images\newblog1.png" />
+    <Content Include="Images\newblog2.jpg" />
+    <Content Include="Images\newblog3.jpg" />
     <Content Include="Images\phone.png" />
     <Content Include="Images\testi-1.jpg" />
     <Content Include="Images\testi-2.jpg" />
