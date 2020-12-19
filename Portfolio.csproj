@@ -121,6 +121,7 @@
     <Content Include="Images\newblog2.jpg" />
     <Content Include="Images\newblog3.jpg" />
     <Content Include="Images\phone.png" />
+    <Content Include="Images\portfolioCover.jpg" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\contact.js" />
