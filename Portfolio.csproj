@@ -183,6 +183,7 @@
     <Content Include="Font\ws-ui.eot" />
     <Content Include="Font\ws-ui.woff" />
     <Content Include="Font\materialdesignicons-webfont.woff2" />
+    <Content Include="Files\ResumeCf.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
