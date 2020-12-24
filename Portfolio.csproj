@@ -180,6 +180,7 @@
     <Content Include="Font\ws-ui.woff" />
     <Content Include="Font\materialdesignicons-webfont.woff2" />
     <Content Include="Files\ResumeCf.pdf" />
+    <Content Include="Files\UpdateResume.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
