@@ -181,6 +181,7 @@
     <Content Include="Font\materialdesignicons-webfont.woff2" />
     <Content Include="Files\ResumeCf.pdf" />
     <Content Include="Files\UpdateResume.pdf" />
+    <Content Include="Files\ADuval-resume-2021.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
